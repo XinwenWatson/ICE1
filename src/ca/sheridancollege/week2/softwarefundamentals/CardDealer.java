@@ -18,6 +18,7 @@ public class CardDealer
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
         Card cardXinwenli=new Card("CardFirst", 25);
-        
+        System.out.println(cardXinwenli.getSuit());
+        System.out.println(cardXinwenli.getSuit());
     }
 }
