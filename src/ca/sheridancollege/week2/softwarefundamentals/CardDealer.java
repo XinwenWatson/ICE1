@@ -13,7 +13,11 @@ public class CardDealer
 {
     public static void main(String[] args)
     {
+        // comment 1: Name: Xinwen Li   
+        // comment 1: Student ID Number: 991653923
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        Card cardXinwenli=new Card("CardFirst", 25);
+        
     }
 }
