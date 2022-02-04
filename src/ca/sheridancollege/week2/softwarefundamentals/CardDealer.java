@@ -17,8 +17,11 @@ public class CardDealer
         // comment 1: Student ID Number: 991653923
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
         Card cardXinwenli=new Card("CardFirst", 25);
         System.out.println(cardXinwenli.getSuit());
         System.out.println(cardXinwenli.getValue());
+        
+        Card cardSecond=new Card("cardSecond", 32);
     }
 }
